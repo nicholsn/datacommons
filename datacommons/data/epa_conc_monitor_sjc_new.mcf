@@ -1,0 +1,32 @@
+Node: SanJoseCity
+typeOf: schema:City
+dcid: dcid:dc/qp620l2
+sourceId: "SourceEPAGov"
+provenance: "https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual"
+curatorId: "belwadi+epa@google.com"
+
+Node: 06085SanJose-42101
+observedNode: l:SanJoseCity
+typeOf: dcs:Observation
+measuredProperty: dcs:emissionsCarbonMonoxide
+meanValue: 0.47
+unit: "partsPerMillion"
+startTime: 1522800000000000
+endTime: 1522800000000000
+duration: "P1Y"
+sourceId: "SourceEPAGov"
+provenance: "https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual"
+curatorId: "belwadi+epa@google.com"
+
+Node: 06085SanJose-43817
+observedNode: l:SanJoseCity
+typeOf: dcs:Observation
+measuredProperty: dcs:emissionsTetraChloroEthylene
+meanValue: 0.00784599
+unit: "partsPerBillion"
+startTime: 1522800000000000
+endTime: 1522800000000000
+duration: "P1Y"
+sourceId: "SourceEPAGov"
+provenance: "https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual"
+curatorId: "belwadi+epa@google.com"
