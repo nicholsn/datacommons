@@ -1,9 +1,34 @@
+Node: CarbonMonoxideProperty
+dcid: dcs:emissionsCarbonMonoxide
+label: "emissionsCarbonMonoxide"
+typeOf: schema:Property
+domainIncludes: schema:City
+rangeIncludes: schema:Integer
+provenance: "https://schema.datacommons.org/emissionsCarbonMonoxide"
+url: "https://schema.datacommons.org/emissionsCarbonMonoxide"
+sourceId: "SourceDatacommonsOrg"
+curatorId: "belwadi+epa@google.com"
+
+
+Node: TetraChloroEthylene
+dcid: dcs:emissionsTetraChloroEthylene
+label: "emissionsTetraChloroEthylene"
+typeOf: schema:Property
+domainIncludes: schema:City
+rangeIncludes: schema:Integer
+provenance: "https://schema.datacommons.org/emissionsTetraChloroEthylene"
+url: "https://schema.datacommons.org/emissionsTetraChloroEthylene"
+sourceId: "SourceDatacommonsOrg"
+curatorId: "belwadi+epa@google.com"
+
+
 Node: SanJoseCity
 typeOf: schema:City
 dcid: dcid:dc/qp620l2
 sourceId: "SourceEPAGov"
 provenance: "https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual"
 curatorId: "belwadi+epa@google.com"
+
 
 Node: 06085SanJose-42101
 observedNode: l:SanJoseCity
@@ -17,6 +42,7 @@ duration: "P1Y"
 sourceId: "SourceEPAGov"
 provenance: "https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual"
 curatorId: "belwadi+epa@google.com"
+
 
 Node: 06085SanJose-43817
 observedNode: l:SanJoseCity
