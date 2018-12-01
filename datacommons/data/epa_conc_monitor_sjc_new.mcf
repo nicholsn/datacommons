@@ -1,6 +1,6 @@
 Node: SanJoseCity
 typeOf: schema:City
-name: San Jose
+name: "San Jose, California"
 gnisId: "2411790"
 sourceId: "SourceEPAGov"
 provenance: "https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual"
