@@ -1,30 +1,7 @@
-Node: CarbonMonoxideProperty
-dcid: dcs:emissionsCarbonMonoxide
-label: "emissionsCarbonMonoxide"
-typeOf: schema:Property
-domainIncludes: schema:City
-rangeIncludes: schema:Integer
-provenance: "https://schema.datacommons.org/emissionsCarbonMonoxide"
-url: "https://schema.datacommons.org/emissionsCarbonMonoxide"
-sourceId: "SourceDatacommonsOrg"
-curatorId: "belwadi+epa@google.com"
-
-
-Node: TetraChloroEthylene
-dcid: dcs:emissionsTetraChloroEthylene
-label: "emissionsTetraChloroEthylene"
-typeOf: schema:Property
-domainIncludes: schema:City
-rangeIncludes: schema:Integer
-provenance: "https://schema.datacommons.org/emissionsTetraChloroEthylene"
-url: "https://schema.datacommons.org/emissionsTetraChloroEthylene"
-sourceId: "SourceDatacommonsOrg"
-curatorId: "belwadi+epa@google.com"
-
-
 Node: SanJoseCity
 typeOf: schema:City
-dcid: dcid:dc/qp620l2
+name: San Jose
+gnisId: "2411790"
 sourceId: "SourceEPAGov"
 provenance: "https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual"
 curatorId: "belwadi+epa@google.com"
@@ -55,4 +32,28 @@ endTime: 1522800000000000
 duration: "P1Y"
 sourceId: "SourceEPAGov"
 provenance: "https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual"
+curatorId: "belwadi+epa@google.com"
+
+
+Node: CarbonMonoxideProperty
+dcid: dcs:emissionsCarbonMonoxide
+label: "emissionsCarbonMonoxide"
+typeOf: schema:Property
+domainIncludes: schema:City
+rangeIncludes: schema:Integer
+provenance: "https://schema.datacommons.org/emissionsCarbonMonoxide"
+url: "https://schema.datacommons.org/emissionsCarbonMonoxide"
+sourceId: "SourceDatacommonsOrg"
+curatorId: "belwadi+epa@google.com"
+
+
+Node: TetraChloroEthylene
+dcid: dcs:emissionsTetraChloroEthylene
+label: "emissionsTetraChloroEthylene"
+typeOf: schema:Property
+domainIncludes: schema:City
+rangeIncludes: schema:Integer
+provenance: "https://schema.datacommons.org/emissionsTetraChloroEthylene"
+url: "https://schema.datacommons.org/emissionsTetraChloroEthylene"
+sourceId: "SourceDatacommonsOrg"
 curatorId: "belwadi+epa@google.com"
