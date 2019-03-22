@@ -1440,5 +1440,52 @@
       <link property="http://schema.org/rangeIncludes" href="https://schema.org/Text"/>
     </div>
 
+    <!-- Clinical Trial -->
+
+    <div typeof="rdfs:Class" resource="https://schema.datacommons.org/ClinicalTrial">
+      <span property="rdfs:label">Clinical Trial</span>
+      <span property="rdfs:comment">A clinical trial is a type of medical study that uses scientific process used to compare the safety and efficacy of medical therapies or medical procedures in humans. In general, clinical trials are controlled and patients are allocated at random to the different treatment and/or control groups.</span>
+      <link property="rdfs:subClassOf" href="http://schema.org/MedicalTrial"/>
+    </div>
+
+    <div typeof="rdfs:Class" resource="https://schema.datacommons.org/ClinicalTrialEnum">
+      <span property="rdfs:label">USC_CitizenStatusEnum</span>
+      <span property="rdfs:comment">An base enumeration of clinical trial value sets.</span>
+      <link property="rdfs:subClassOf" href="http://schema.org/Enumeration"/>
+    </div>
+
+    <div typeof="rdfs:Class" resource="https://schema.datacommons.org/PhaseEnum">
+      <span property="rdfs:label">Phase Enum</span>
+      <span property="rdfs:comment">An enumeration of clinical trial phases.</span>
+      <link property="rdfs:subClassOf" href="http://schema.org/ClinicalTrialEnum"/>
+    </div>
+
+    <div typeof="https://schema.datacommons.org/PhaseEnum" resource="https://schema.datacommons.org/Phase1">
+        <span property="rdfs:label">Phase 1</span>
+        <span property="rdfs:comment">Phase 1 clinical trial.</span>
+    </div>
+
+    <div typeof="https://schema.datacommons.org/PhaseEnum" resource="https://schema.datacommons.org/Phase2">
+        <span property="rdfs:label">Phase 2</span>
+        <span property="rdfs:comment">Phase 2 clinical trial.</span>
+    </div>
+
+    <div typeof="https://schema.datacommons.org/PhaseEnum" resource="https://schema.datacommons.org/Phase3">
+        <span property="rdfs:label">Phase 3</span>
+        <span property="rdfs:comment">Phase 3 clinical trial.</span>
+    </div>
+
+    <div typeof="https://schema.datacommons.org/PhaseEnum" resource="https://schema.datacommons.org/Phase4">
+        <span property="rdfs:label">Phase 4</span>
+        <span property="rdfs:comment">Phase 4 clinical trial.</span>
+    </div>
+
+    <div typeof="rdf:Property" resource="https://schema.datacommons.org/phase">
+      <span property="rdfs:label">phase</span>
+      <span property="rdfs:comment">A phase code, as used in clinical trials.</span>
+      <link property="http://schema.org/domainIncludes" href="https://schema.datacommons.org/ClinicalTrial"/>
+      <link property="http://schema.org/rangeIncludes" href="https://schema.datacommons.org/PhaseEnum" />
+    </div>
+
 </body>
 </html>
